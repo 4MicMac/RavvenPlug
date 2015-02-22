@@ -3,7 +3,7 @@ main: com.gmail.ravvenlord.ravvenplug.RavvenBase
 version: 0.1
 commands:
   pos:
-    description: Displays your current position or Teleports you to another.
+    description: Displays your current position or will teleports you to another.
     usage: "Usage: '/pos' to get current position, or '/pos x y z' to teleport to x,y,z"
   debug:
     description: Toggles your debugging status for this plugin.
