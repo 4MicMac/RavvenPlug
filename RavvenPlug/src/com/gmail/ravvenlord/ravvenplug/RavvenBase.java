@@ -8,7 +8,7 @@ import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.PluginManager;
 
 public class RavvenBase extends JavaPlugin {
-//		private final PlayerListener playerListener = new PlayerListener(this);
+//		Comment here: private final PlayerListener playerListener = new PlayerListener(this);
 	    private final BlockListener blockListener = new BlockListener();
 	    private final ArrowListener arrowListener = new ArrowListener();
 	    private final HashMap<Player, Boolean> debugees = new HashMap<Player, Boolean>();
